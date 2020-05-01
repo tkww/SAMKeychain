@@ -11,8 +11,8 @@ let package = Package(
             name: "SAMKeychain",
             dependencies: [],
             path: "Sources"
-            // exclude: ["Support", "Tests"],
-            // sources: ["Sources/*"]
+            // exclude: ["Tests", "Support"]
+            // sources: ["Sources"]
         )
     ]
 )
