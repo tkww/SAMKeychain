@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1010"
+   LastUpgradeVersion = "9999"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21632D971C925A3C00C40D7D"
+               BlueprintIdentifier = "SAMKeychain::SAMKeychain"
                BuildableName = "SAMKeychain.framework"
-               BlueprintName = "SAMKeychain-tvOS"
+               BlueprintName = "SAMKeychain"
                ReferencedContainer = "container:SAMKeychain.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,28 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21632DA01C925A3C00C40D7D"
-               BuildableName = "SAMKeychainTests.xctest"
-               BlueprintName = "SAMKeychainTests-tvOS"
-               ReferencedContainer = "container:SAMKeychain.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21632D971C925A3C00C40D7D"
-            BuildableName = "SAMKeychain.framework"
-            BlueprintName = "SAMKeychain-tvOS"
-            ReferencedContainer = "container:SAMKeychain.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -61,17 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21632D971C925A3C00C40D7D"
-            BuildableName = "SAMKeychain.framework"
-            BlueprintName = "SAMKeychain-tvOS"
-            ReferencedContainer = "container:SAMKeychain.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -79,15 +47,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21632D971C925A3C00C40D7D"
-            BuildableName = "SAMKeychain.framework"
-            BlueprintName = "SAMKeychain-tvOS"
-            ReferencedContainer = "container:SAMKeychain.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

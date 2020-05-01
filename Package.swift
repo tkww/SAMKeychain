@@ -4,16 +4,15 @@ import PackageDescription
 let package = Package(
     name: "SAMKeychain",
     products: [
-        .library(name: "SAMKeychain", targets: ["SAMKeychain-iOS"])
+        .library(name: "SAMKeychain", targets: ["SAMKeychain"])
     ],
     targets: [
         .target(
-            name: "SAMKeychain-iOS",
+            name: "SAMKeychain",
             dependencies: [],
-            path: ".",
-            exclude: [],
-            sources: ["Sources"],
-            publicHeadersPath: "SAMKeychain"
+            path: "Sources"
+            // exclude: ["Support", "Tests"],
+            // sources: ["Sources/*"]
         )
     ]
 )
